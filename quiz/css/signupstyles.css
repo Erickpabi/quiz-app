@@ -1,0 +1,74 @@
+.sign{
+    background-color: brown;
+    font-family:  'Raleway', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+
+.justify
+{
+    position: absolute;
+    top:400px;
+    right:300px;
+}
+
+
+.absolute{
+    position: absolute;
+    top:400px;
+    right:700px;
+}
+
+.relative{
+    position: absolute;
+    top:400px;
+    left:300px;
+}
+.left{
+    top: 200px;
+    right:300px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.students{
+    font-family:  'Raleway', sans-serif;
+}
+
+.right{
+    border-radius:50%;
+    top:200px;
+    right:700px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  
+}
+
+.center{
+    border-radius:50%;
+    top:200px;
+    left:300px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+
+}
+
+button{
+    text-align: center;
+    font-size: medium;
+padding:10px;
+color: white;
+border: 3px solid purple;
+cursor: pointer;
+color: black;
+
+}
+
+button:hover{
+    background:purple;
+}
